@@ -1,4 +1,4 @@
-import ButtonLink from "../SocialLinks/components/ButtonLink";
+import ButtonLink from "./components/ButtonLink";
 
 function SocialLinks() {
     return (
@@ -8,7 +8,7 @@ function SocialLinks() {
                 {/* Image */}
                 <div>
                     <img
-                        src="./assets/images/avatar-jessica.jpeg"
+                        src="./assets/images/sociallinks/avatar-jessica.jpeg"
                         alt="User's avatar"
                         className="rounded-full object-fit w-20"
                     />

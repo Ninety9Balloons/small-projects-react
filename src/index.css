@@ -1,9 +1,13 @@
 .dark {
-    --color-bg-primary: rgb(22, 72, 99);
-    --color-bg-secondary: rgb(66, 125, 157);
-    --color-bg-accent: #7faec7;
-    --color-text-primary: hsl(0, 0%, 98%);
-    --color-text-secondary: rgb(190, 240, 277);
+    --color-bg-primary: #1b262c;
+    --color-bg-secondary: #0f4c75;
+    --color-bg-accent-1: #e36900;
+    --color-bg-accent-2: #bbe1fa;
+    --color-bg-accent-3: #3282b8;
+    --color-text-primary: #e6e6e3;
+    --color-text-secondary: #fba834;
+    --color-text-link: #ffb619;
+    --color-text-accent: #d58a55;
 }
 
 .light {

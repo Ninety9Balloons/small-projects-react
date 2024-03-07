@@ -10,7 +10,7 @@ function RecipePage() {
                 {/* Image Container */}
                 <div>
                     <img
-                        src="/assets/images/image-omelette.jpeg"
+                        src="/assets/images/recipepage/image-omelette.jpeg"
                         alt="Picture of an omelette"
                         className="rounded-lg shadow-md"
                     />

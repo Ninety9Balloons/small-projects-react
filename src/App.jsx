@@ -1,9 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./routes/home";
 import Header from "./components/header/Header";
-import RecipePage from "./routes/recipePage";
-import SocialLinks from "./routes/socialLinks";
-import NotificationsPage from "./routes/NotificationsPage";
+import RecipePage from "./routes/RecipePage/recipePage";
+import SocialLinks from "./routes/SocialLinks/SocialLinks";
+import NotificationsPage from "./routes/NotificationsPage/NotificationsPage";
+import IntroSection from "./routes/IntroSection/IntroSection";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                         path="/notificationspage"
                         element={<NotificationsPage />}
                     />
+                    <Route path="/introsection" element={<IntroSection />} />
                 </Routes>
             </Router>
         </div>

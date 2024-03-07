@@ -26,8 +26,8 @@ function Item(props) {
             onClick={() => handleClick()}
             className={
                 unread
-                    ? "bg-secondary rounded-lg p-4 flex flex-col cursor-pointer hover:bg-accent transition-all"
-                    : "rounded-lg p-4 flex flex-col hover:bg-secondary transition-all"
+                    ? "bg-secondary rounded-lg p-4 flex flex-col cursor-pointer hover:bg-accent-3 transition-all"
+                    : "rounded-lg p-4 flex flex-col hover:bg-accent-3 transition-all"
             }
         >
             <div className="flex flex-wrap">
@@ -55,7 +55,7 @@ function Item(props) {
                                 </span>
 
                                 {/* item in question */}
-                                <span className="font-bold text-secondary">
+                                <span className="font-bold text-link">
                                     {props.event}
                                 </span>
 
