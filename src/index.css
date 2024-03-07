@@ -1,0 +1,19 @@
+.dark {
+    --color-bg-primary: rgb(22, 72, 99);
+    --color-bg-secondary: rgb(66, 125, 157);
+    --color-bg-accent: #7faec7;
+    --color-text-primary: hsl(0, 0%, 98%);
+    --color-text-secondary: rgb(190, 240, 277);
+}
+
+.light {
+    --color-bg-primary: rgb(221, 242, 253);
+    --color-bg-secondary: rgb(155, 190, 200);
+    --color-bg-accent: #7faec7;
+    --color-text-primary: rgb(38, 40, 42);
+    --color-text-secondary: rgb(22, 72, 99);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
