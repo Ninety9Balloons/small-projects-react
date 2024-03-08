@@ -1,6 +1,6 @@
 function FooterContainer() {
     return (
-        <div className="flex gap-4 flex-wrap justify-center">
+        <div className="flex gap-4 flex-wrap md:flex-nowrap justify-center">
             <img
                 src="/assets/images/introsection/client-databiz.svg"
                 alt="DataBiz Logo"

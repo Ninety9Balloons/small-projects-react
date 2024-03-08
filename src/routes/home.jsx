@@ -3,7 +3,7 @@ import Card from "../components/displayCard/Card";
 function Home() {
     return (
         <div>
-            <div className="flex p-10 gap-10">
+            <div className="flex flex-col md:flex-row p-10 gap-10">
                 <Card
                     src={"./recipepage"}
                     text={"Recipe Page"}
@@ -22,7 +22,7 @@ function Home() {
                 <Card
                     src={"./introsection"}
                     text={"Intro Section"}
-                    imgSrc={"notifications/dark-mode-screenshot.png"}
+                    imgSrc={"introsection/dark-mode-screenshot.png"}
                 />
             </div>
         </div>

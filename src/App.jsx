@@ -8,7 +8,7 @@ import IntroSection from "./routes/IntroSection/IntroSection";
 
 function App() {
     return (
-        <div className="bg-primary min-w-screen h-screen pt-32">
+        <div className="bg-primary min-w-screen h-screen pt-[100px]">
             <Router>
                 <Header />
                 <Routes>

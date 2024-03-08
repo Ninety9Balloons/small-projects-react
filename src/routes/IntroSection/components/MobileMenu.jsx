@@ -17,7 +17,7 @@ function MobileMenu({ menuOpen, setMenuOpen }) {
 
     return (
         <div
-            className={`flex bg-white w-[250px] h-full overflow-y-auto py-32 fixed right-0 top-0 transition-all ${
+            className={`flex bg-white z-20 w-[250px] h-full overflow-y-auto py-32 fixed right-0 top-0 transition-all ${
                 menuOpen
                     ? "opacity-100 translate-x-0"
                     : "opacity-0 translate-x-[250px]"

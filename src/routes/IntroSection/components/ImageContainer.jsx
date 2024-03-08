@@ -1,6 +1,6 @@
 function ImageContainer() {
     return (
-        <div>
+        <div className="flex flex-1 h-full">
             <img
                 src="/assets/images/introsection/image-hero-mobile.png"
                 alt="mobile hero image"
@@ -8,8 +8,8 @@ function ImageContainer() {
             />
             <img
                 src="/assets/images/introsection/image-hero-desktop.png"
-                alt="mobile hero image"
-                className="mt-5 hidden md:block"
+                alt="desktop hero image"
+                className="mt-10 hidden md:block object-contain"
             />
         </div>
     );

@@ -3,7 +3,7 @@ import { Toggle } from "../darkModeToggle/DarkModeToggle";
 
 function Header() {
     return (
-        <div className="flex fixed top-0 left-0 right-0 bg-primary items-center shadow-md px-2 md:px-10 py-10 text-primary z-40">
+        <div className="flex fixed top-0 left-0 right-0 bg-primary items-center shadow-md px-2 md:px-10 py-10 text-primary z-40 h-[100px]">
             <Link to={`/`} className="flex flex-1 justify-start">
                 <h1 className="font-bold text-sm md:text-xl uppercase tracking-widest hover:text-link transition-all">
                     Small Projects

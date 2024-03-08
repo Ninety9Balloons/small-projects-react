@@ -9,12 +9,12 @@ function Card({ src, text, imgSrc }) {
                     <img
                         src={`/assets/images/${imgSrc}`}
                         alt={`${text} screenshot`}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover rounded-lg"
                     />
                 </div>
 
-                <div className="bg-gradient-to-t from-black to-transparent rounded-b-lg w-full h-full absolute bottom-0 left-0 z-20 opacity-50"></div>
-                <h2 className="text-xl font-bold text-primary uppercase absolute bottom-0 z-20 m-2">
+                <div className="bg-gradient-to-t from-black to-gray rounded-b-lg w-full h-full absolute bottom-0 left-0 z-20 opacity-50"></div>
+                <h2 className="text-xl font-bold text-white uppercase absolute bottom-0 z-20 m-2">
                     {text}
                 </h2>
             </div>

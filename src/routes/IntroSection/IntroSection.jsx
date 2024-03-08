@@ -10,24 +10,30 @@ function IntroSection() {
 
     return (
         <div
-            className={`p-5 min-h-screen flex flex-col justify-between transition-all relative ${
+            className={`min-h-screen flex justify-center items-start transition-all relative ${
                 menuOpen ? "bg-gray-500 overscroll-hidden" : "bg-white"
             }`}
         >
-            {/* Mobile Menu */}
-            <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+            <div className="p-5 flex flex-col justify-between md:justify-start max-w-[1000px] h-full relative">
+                {/* Mobile Menu */}
+                <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
-            {/* Header */}
-            <Header setMenuOpen={setMenuOpen} />
+                {/* Header */}
+                <Header setMenuOpen={setMenuOpen} />
 
-            {/* Hero Image */}
-            <ImageContainer />
+                <div className="md:flex md:flex-row-reverse md:items-center md:justify-center md:mx-auto md:h-[640px] md:max-w-[90%] md:gap-20">
+                    {/* Hero Image */}
+                    <ImageContainer />
 
-            {/* Hero Text */}
-            <HeroTextContainer />
+                    {/* Hero Text */}
+                    <HeroTextContainer />
+                </div>
 
-            {/* Footer Icons */}
-            <FooterContainer />
+                {/* Footer Icons Mobile */}
+                <div className=" md:hidden">
+                    <FooterContainer />
+                </div>
+            </div>
         </div>
     );
 }

@@ -2,7 +2,7 @@ import ButtonLink from "./components/ButtonLink";
 
 function SocialLinks() {
     return (
-        <div className="flex justify-center items-center text-primary">
+        <div className="flex justify-center items-center text-primary mt-10">
             {/* Main Container */}
             <div className="flex flex-col justify-center items-center bg-secondary rounded-lg p-8 shadow-xl">
                 {/* Image */}
