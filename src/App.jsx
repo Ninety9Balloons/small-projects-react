@@ -5,6 +5,7 @@ import RecipePage from "./routes/RecipePage/recipePage";
 import SocialLinks from "./routes/SocialLinks/SocialLinks";
 import NotificationsPage from "./routes/NotificationsPage/NotificationsPage";
 import IntroSection from "./routes/IntroSection/IntroSection";
+import RatingComponent from "./routes/RatingComponent/RatingComponent";
 
 function App() {
     return (
@@ -20,6 +21,10 @@ function App() {
                         element={<NotificationsPage />}
                     />
                     <Route path="/introsection" element={<IntroSection />} />
+                    <Route
+                        path="/ratingcomponent"
+                        element={<RatingComponent />}
+                    />
                 </Routes>
             </Router>
         </div>
