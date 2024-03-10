@@ -6,6 +6,7 @@ import SocialLinks from "./routes/SocialLinks/SocialLinks";
 import NotificationsPage from "./routes/NotificationsPage/NotificationsPage";
 import IntroSection from "./routes/IntroSection/IntroSection";
 import RatingComponent from "./routes/RatingComponent/RatingComponent";
+import AdviceGenerator from "./routes/AdviceGenerator/AdviceGenerator";
 
 function App() {
     return (
@@ -24,6 +25,10 @@ function App() {
                     <Route
                         path="/ratingcomponent"
                         element={<RatingComponent />}
+                    />
+                    <Route
+                        path="/advicegenerator"
+                        element={<AdviceGenerator />}
                     />
                 </Routes>
             </Router>

@@ -29,6 +29,11 @@ function Home() {
                     text={"Rating Component"}
                     imgSrc={"ratingcomponent/dark-mode-screenshot.png"}
                 />
+                <Card
+                    src={"./advicegenerator"}
+                    text={"Advice Generator"}
+                    imgSrc={"advicegenerator/dark-mode-screenshot.png"}
+                />
             </div>
         </div>
     );
