@@ -34,6 +34,11 @@ function Home() {
                     text={"Advice Generator"}
                     imgSrc={"advicegenerator/dark-mode-screenshot.png"}
                 />
+                <Card
+                    src={"./commentssection"}
+                    text={"Comments Section"}
+                    imgSrc={"advicegenerator/dark-mode-screenshot.png"}
+                />
             </div>
         </div>
     );

@@ -7,10 +7,11 @@ import NotificationsPage from "./routes/NotificationsPage/NotificationsPage";
 import IntroSection from "./routes/IntroSection/IntroSection";
 import RatingComponent from "./routes/RatingComponent/RatingComponent";
 import AdviceGenerator from "./routes/AdviceGenerator/AdviceGenerator";
+import CommentsSection from "./routes/CommentsSection/CommentsSection";
 
 function App() {
     return (
-        <div className="bg-primary min-w-screen h-screen pt-[100px]">
+        <div className="bg-primary min-w-screen min-h-screen pt-[100px]">
             <Router>
                 <Header />
                 <Routes>
@@ -29,6 +30,10 @@ function App() {
                     <Route
                         path="/advicegenerator"
                         element={<AdviceGenerator />}
+                    />
+                    <Route
+                        path="/commentssection"
+                        element={<CommentsSection />}
                     />
                 </Routes>
             </Router>
