@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ChildCommentCard from "./ChildCommentCard";
+import BottomButtons from "./BottomButtons";
 
 /* eslint-disable react/prop-types */
 function CommentCard(props) {
@@ -63,33 +64,7 @@ function CommentCard(props) {
                     </div>
 
                     {/* Bottom buttons */}
-                    {props.username === "juliusomo" ? (
-                        <div className="flex gap-3">
-                            <button className="flex items-center gap-2 font-bold text-red-400">
-                                <img
-                                    src="assets/images/commentssection/icon-delete.svg"
-                                    alt="delete icon"
-                                />
-                                Delete
-                            </button>
-                            <button className="flex items-center gap-2 font-bold text-accent">
-                                <img
-                                    src="assets/images/commentssection/icon-edit.svg"
-                                    alt="edit icon"
-                                />
-                                Edit
-                            </button>
-                        </div>
-                    ) : (
-                        <button className="flex items-center gap-2 font-bold text-accent">
-                            <img
-                                src="assets/images/commentssection/icon-reply.svg"
-                                alt=""
-                                className=""
-                            />
-                            Reply
-                        </button>
-                    )}
+                    <BottomButtons username={props.username} />
                 </div>
             </div>
 
@@ -101,11 +76,14 @@ function CommentCard(props) {
                         <ChildCommentCard
                             width="300px"
                             key={item.id}
+                            id={item.id}
                             replyTo={item.replyingTo}
                             username={item.user.username}
                             createdAt={item.createdAt}
                             content={item.content}
                             score={item.score}
+                            child={item}
+                            
                         />
                     ))}
                 </ul>
