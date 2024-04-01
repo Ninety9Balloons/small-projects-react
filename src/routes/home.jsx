@@ -37,7 +37,13 @@ function Home() {
                 <Card
                     src={"./commentssection"}
                     text={"Comments Section"}
-                    imgSrc={"advicegenerator/dark-mode-screenshot.png"}
+                    imgSrc={"commentssection/dark-mode-screenshot.png"}
+                />
+
+                <Card
+                    src={"./ecommerceproductpage"}
+                    text={"ECommerce Product Page"}
+                    imgSrc={"ecommerceproduct/screenshot.png"}
                 />
             </div>
         </div>

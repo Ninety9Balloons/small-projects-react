@@ -33,7 +33,13 @@ function BottomButtons({ username, id }) {
         function editComment(id, arr) {
             arr.forEach(function (item, index) {
                 if (item.id == id) {
-                    console.log("open textarea for item: " + id);
+                    item.content = (
+                        <textarea
+                            className="w-full h-[100px] bg-secondary border rounded p-3 outline-none"
+                            placeholder="Edit a comment..."
+                            defaultValue={item.content}
+                        ></textarea>
+                    );
                 } else if (item.replies && item.replies.length > 0) {
                     for (let i = 0; i < item.replies.length; i++) {
                         if (item.replies[i].id == id) {
@@ -41,10 +47,6 @@ function BottomButtons({ username, id }) {
                                 <textarea
                                     className="w-full h-[100px] bg-secondary border rounded p-3 outline-none"
                                     placeholder="Edit a comment..."
-                                    onChange={() =>
-                                        (item.replies[i].content =
-                                            e.target.value)
-                                    }
                                     defaultValue={item.replies[i].content}
                                 ></textarea>
                             );

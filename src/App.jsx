@@ -8,6 +8,7 @@ import IntroSection from "./routes/IntroSection/IntroSection";
 import RatingComponent from "./routes/RatingComponent/RatingComponent";
 import AdviceGenerator from "./routes/AdviceGenerator/AdviceGenerator";
 import CommentsSection from "./routes/CommentsSection/CommentsSection";
+import ECommerceProductPage from "./routes/ECommerceProductPage/ECommerceProductPage";
 
 function App() {
     return (
@@ -34,6 +35,10 @@ function App() {
                     <Route
                         path="/commentssection"
                         element={<CommentsSection />}
+                    />
+                      <Route
+                        path="/ecommerceproductpage"
+                        element={<ECommerceProductPage />}
                     />
                 </Routes>
             </Router>
