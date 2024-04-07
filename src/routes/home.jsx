@@ -39,11 +39,25 @@ function Home() {
                     text={"Comments Section"}
                     imgSrc={"commentssection/dark-mode-screenshot.png"}
                 />
-
                 <Card
                     src={"./ecommerceproductpage"}
                     text={"ECommerce Product Page"}
                     imgSrc={"ecommerceproduct/screenshot.png"}
+                />
+                <Card
+                    src={"./joblistings"}
+                    text={"Job Listings"}
+                    imgSrc={"joblistings/images/screenshot.png"}
+                />
+                <Card
+                    src={"./socialmediadashboard"}
+                    text={"Social Media Dashboard"}
+                    imgSrc={"socialmediadashboard/screenshot.png"}
+                />
+                <Card
+                    src={"./spacetourism/home"}
+                    text={"Space Tourism"}
+                    imgSrc={"spacetourism/screenshot.png"}
                 />
             </div>
         </div>

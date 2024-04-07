@@ -9,6 +9,9 @@ import RatingComponent from "./routes/RatingComponent/RatingComponent";
 import AdviceGenerator from "./routes/AdviceGenerator/AdviceGenerator";
 import CommentsSection from "./routes/CommentsSection/CommentsSection";
 import ECommerceProductPage from "./routes/ECommerceProductPage/ECommerceProductPage";
+import JobListings from "./routes/JobListings/JobListings";
+import SocialMediaDashboard from "./routes/SocialMediaDashboard/SocialMediaDashboard";
+import SpaceTourism from "./routes/SpaceTourism/SpaceTourism";
 
 function App() {
     return (
@@ -36,10 +39,16 @@ function App() {
                         path="/commentssection"
                         element={<CommentsSection />}
                     />
-                      <Route
+                    <Route
                         path="/ecommerceproductpage"
                         element={<ECommerceProductPage />}
                     />
+                    <Route path="/joblistings" element={<JobListings />} />
+                    <Route
+                        path="/socialmediadashboard"
+                        element={<SocialMediaDashboard />}
+                    />
+                    <Route path="/spacetourism/*" element={<SpaceTourism />} />
                 </Routes>
             </Router>
         </div>
