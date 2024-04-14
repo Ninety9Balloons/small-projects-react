@@ -12,6 +12,9 @@ import ECommerceProductPage from "./routes/ECommerceProductPage/ECommerceProduct
 import JobListings from "./routes/JobListings/JobListings";
 import SocialMediaDashboard from "./routes/SocialMediaDashboard/SocialMediaDashboard";
 import SpaceTourism from "./routes/SpaceTourism/SpaceTourism";
+import TodoApp from "./routes/TodoApp/TodoApp";
+import RoomHomepage from "./routes/RoomHomepage/RoomHomepage";
+import EasyBank from "./routes/EasyBank/EasyBank";
 
 function App() {
     return (
@@ -49,6 +52,9 @@ function App() {
                         element={<SocialMediaDashboard />}
                     />
                     <Route path="/spacetourism/*" element={<SpaceTourism />} />
+                    <Route path="/todoapp" element={<TodoApp />} />
+                    <Route path="/room-homepage" element={<RoomHomepage />} />
+                    <Route path="/easybank" element={<EasyBank />} />
                 </Routes>
             </Router>
         </div>

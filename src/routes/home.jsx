@@ -59,6 +59,21 @@ function Home() {
                     text={"Space Tourism"}
                     imgSrc={"spacetourism/screenshot.png"}
                 />
+                <Card
+                    src={"./todoapp"}
+                    text={"Todo App"}
+                    imgSrc={"todo-app/screenshot.png"}
+                />
+                <Card
+                    src={"./room-homepage"}
+                    text={"Room Home Page"}
+                    imgSrc={"room-homepage/screenshot.png"}
+                />
+                  <Card
+                    src={"./easybank"}
+                    text={"Eay Bank Landing Page"}
+                    imgSrc={"easybank/screenshot.png"}
+                />
             </div>
         </div>
     );

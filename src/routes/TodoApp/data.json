@@ -1,0 +1,5 @@
+[{"item": "Complete online JS course", "completed": true, "id": "1"}, 
+  {"item": "Jog around the park", "completed": false, "id": "2"},
+  {"item": "Attend a JavaScript meetup", "completed": true, "id": "3"},
+  {"item": "Read a book", "completed": false, "id": "4"},
+  {"item": "Watch a movie", "completed": false, "id": "5"} ]

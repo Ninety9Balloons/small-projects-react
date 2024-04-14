@@ -33,6 +33,21 @@ export default {
                 "dark-desaturated-blue": "hsl(228, 28%, 20%)",
                 "desaturated-blue": "hsl(228, 34%, 66%)",
                 white: "hsl(0, 0%, 100%)",
+
+                "primary-todo": "hsl(220, 98%, 61%)",
+                "todo-bg-start": " hsl(192, 100%, 67%)",
+                "todo-bg-end": " hsl(280, 87%, 65%)",
+                "very-dark-desaturated-blue": "hsl(235, 24%, 19%)",
+                "light-grayish-blue-2": "hsl(236, 33%, 92%)",
+                "very-dark-grayish-blue": "hsl(233, 14%, 35%)",
+
+                "dark-gray": "hsl(0, 0%, 63%)",
+                "very-dark-gray": "hsl(0, 0%, 27%)",
+
+                "dark-blue": "hsl(233, 26%, 24%)",
+                "bright-cyan": "hsl(192, 70%, 51%)",
+                "grayish-blue": "hsl(233, 8%, 62%)",
+                "very-light-gray": "hsl(0, 0%, 98%)",
             },
             fontFamily: {
                 roboto: ["Roboto", "sans-serif"],
