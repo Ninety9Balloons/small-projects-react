@@ -17,7 +17,7 @@ import RoomHomepage from "./routes/RoomHomepage/RoomHomepage";
 import EasyBank from "./routes/EasyBank/EasyBank";
 import Manage from "./routes/ManageLandingPage/Manage";
 import URLShortener from "./routes/URLShortening/URLShortener";
-import SteamClone from "./routes/SteamClone/SteamClone";
+import SteamClone from "./routes/SteamClone/App";
 
 function App() {
     return (
