@@ -1,10 +1,23 @@
+/* eslint-disable no-undef */
+const flowbite = require("flowbite-react/tailwind");
+
 /** @type {import('tailwindcss').Config} */
 export default {
     darkMode: "class",
 
-    content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+    content: ["./src/**/*.{js,jsx,ts,tsx}", flowbite.content()],
+
     theme: {
         extend: {
+            animation: {
+                "infinite-scroll": "infinite-scroll 25s linear infinite",
+            },
+            keyframes: {
+                "infinite-scroll": {
+                    from: { transform: "translateX(0)" },
+                    to: { transform: "translateX(-100%)" },
+                },
+            },
             colors: {
                 "primary-jobs": "hsl(180, 29%, 50%)",
                 "neutral-background": "hsl(180, 31%, 95%)",
@@ -48,6 +61,14 @@ export default {
                 "bright-cyan": "hsl(192, 70%, 51%)",
                 "grayish-blue": "hsl(233, 8%, 62%)",
                 "very-light-gray": "hsl(0, 0%, 98%)",
+
+                "very-pale-red": "hsl(13, 100%, 96%)",
+
+                cyan: "hsl(180, 66%, 49%)",
+                "dark-violet": "hsl(257, 27%, 26%)",
+                gray: "hsl(0, 0%, 75%)",
+                "grayish-violet": "hsl(257, 7%, 63%)",
+                "very-dark-violet": "hsl(260, 8%, 14%)",
             },
             fontFamily: {
                 roboto: ["Roboto", "sans-serif"],
@@ -67,5 +88,5 @@ export default {
             },
         },
     },
-    plugins: [],
+    plugins: [flowbite.plugin()],
 };

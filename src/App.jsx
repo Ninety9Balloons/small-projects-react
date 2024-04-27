@@ -15,6 +15,9 @@ import SpaceTourism from "./routes/SpaceTourism/SpaceTourism";
 import TodoApp from "./routes/TodoApp/TodoApp";
 import RoomHomepage from "./routes/RoomHomepage/RoomHomepage";
 import EasyBank from "./routes/EasyBank/EasyBank";
+import Manage from "./routes/ManageLandingPage/Manage";
+import URLShortener from "./routes/URLShortening/URLShortener";
+import SteamClone from "./routes/SteamClone/SteamClone";
 
 function App() {
     return (
@@ -55,6 +58,9 @@ function App() {
                     <Route path="/todoapp" element={<TodoApp />} />
                     <Route path="/room-homepage" element={<RoomHomepage />} />
                     <Route path="/easybank" element={<EasyBank />} />
+                    <Route path="/manage" element={<Manage />} />
+                    <Route path="/urlshortener" element={<URLShortener />} />
+                    <Route path="/steamclone/*" element={<SteamClone />} />
                 </Routes>
             </Router>
         </div>

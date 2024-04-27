@@ -69,10 +69,25 @@ function Home() {
                     text={"Room Home Page"}
                     imgSrc={"room-homepage/screenshot.png"}
                 />
-                  <Card
+                <Card
                     src={"./easybank"}
-                    text={"Eay Bank Landing Page"}
+                    text={"Easy Bank Landing Page"}
                     imgSrc={"easybank/screenshot.png"}
+                />
+                <Card
+                    src={"./manage"}
+                    text={"Manage Landing Page"}
+                    imgSrc={"manage/screenshot.png"}
+                />
+                <Card
+                    src={"./urlshortener"}
+                    text={"URL Shortener"}
+                    imgSrc={"url-shortening/screenshot.png"}
+                />
+                <Card
+                    src={"./steamclone"}
+                    text={"Steam Clone"}
+                    imgSrc={"steamclone/screenshot.png"}
                 />
             </div>
         </div>
